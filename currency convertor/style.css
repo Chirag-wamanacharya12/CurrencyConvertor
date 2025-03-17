@@ -1,0 +1,89 @@
+body {
+    background-color: #0d1117;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.converter {
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.header span {
+    margin: 10px;
+    cursor: pointer;
+    color: #888;
+}
+
+.header .active {
+    color: #fff;
+    border-bottom: 2px solid #58a6ff;
+}
+
+.currency-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.currency-box {
+    display: flex;
+    justify-content: space-between;
+    background: #21262d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+select, input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+button#swap {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #58a6ff;
+    cursor: pointer;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.numpad button {
+    background: #21262d;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.numpad button:active {
+    background: #30363d;
+}
+option{
+    background: #21262d;
+    cursor: pointer;
+}
+option:hover{
+    background: #323a46;
+    cursor: pointer;
+}
